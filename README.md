@@ -1,3 +1,43 @@
+## Editting Pages 
+
+You can see all the pages within `src/Pages/{directoryName}/{directoryFile}` and edit them accordingly.
+Within the `return` method. You would always need to wrap the content with a parent element. Which in this case is a `div`.
+```js
+import React, { Component } from 'react';
+
+class Example extends Component {
+  render() {
+    return (
+      <div>
+        <h1>Hello World</h1>
+      </div>
+    );
+  }
+}
+
+export default Example;
+```
+You can have as many elements within the parent element. But elements can't be on the same level as the parent element. For example you can't do this: 
+```js
+import React, { Component } from 'react';
+
+class Example extends Component {
+  render() {
+    return (
+      <div>
+        <h1>Hello World</h1>
+      </div>
+      <div>
+        THIS IS INCORRECT
+      </div>
+    );
+  }
+}
+
+export default Example;
+```
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
