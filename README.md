@@ -28,7 +28,7 @@ class Example extends Component {
         <h1>Hello World</h1>
       </div>
       <div>
-        THIS IS INCORRECT
+        <h1>Hello again</h1> // THIS IS INCORRECT
       </div>
     );
   }
@@ -38,7 +38,6 @@ export default Example;
 ```
 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
@@ -68,6 +67,8 @@ Your app is ready to be deployed!
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
 ## Learn More
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
