@@ -1,6 +1,6 @@
 ## Editting Pages 
 
-You can see all the pages within `src/Pages/{directoryName}/{directoryFile}` and edit them accordingly.
+You can see all the pages within `src/Pages/{directoryName}/{directoryFile}.js` and edit them accordingly.
 Within the `return` method. You would always need to wrap the content with a parent element. Which in this case is a `div`.
 ```js
 import React, { Component } from 'react';
@@ -10,6 +10,7 @@ class Example extends Component {
     return (
       <div>
         <h1>Hello World</h1>
+        <h1>Hello again</h1> // CORRECT WAY
       </div>
     );
   }
