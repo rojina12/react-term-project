@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 
-class Credits extends Component {
+class Summary extends Component {
   render() {
     return (
       <div>
-        Credits
+        Summary
       </div>
     );
   }
 }
 
-export default Credits;
+export default Summary;
