@@ -12,10 +12,13 @@ class Header extends Component {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav">
             <li className="nav-item">
-              <Link to="/summary" className="nav-link">Summary</Link>
+              <Link to="/setup" className="nav-link">Setup</Link>
             </li>
             <li className="nav-item">
               <Link to="/how-to" className="nav-link">How To</Link>
+            </li>
+            <li className="nav-item">
+              <Link to="/demo" className="nav-link">Demo</Link>
             </li>
             <li className="nav-item">
               <Link to="/conclusion" className="nav-link">Conclusion</Link>
