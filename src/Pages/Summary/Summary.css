@@ -1,0 +1,21 @@
+.Summary-logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+.Summary-title {
+text-align: center;
+ font-weight: bold;
+ color: #00D8FF;
+}
+
+h2{
+	white-space: pre-line;
+	color: 	#708090;
+	
+}
+
+p{
+	white-space: pre-line;
+}
