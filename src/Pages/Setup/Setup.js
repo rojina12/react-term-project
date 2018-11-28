@@ -8,17 +8,21 @@ class Setup extends Component {
         Setup
       </h1>
       <h2>
-      react:
+      React:
       </h2>
       <ol>
-      <li>install node.js</li>
-      <li>run 'npm install react'</li>
-      <li>run 'npx create-react-app *Name-of-app*' </li>
-      <li>run 'cd *Name-of-app*'</li>
-      <li>you'll be in the directory which contains your app. the sub directory src contains all of the js code</li>
-      <li>run 'npm start' to run the app localy</li>
+      <li>Install node.js</li>
+      <li>Run 'npm install react'</li>
+      <li>Run 'npx create-react-app *Name-of-app*' </li>
+      <li>Run 'cd *Name-of-app*'</li>
+      <li>You'll be in the directory which contains your app. the sub directory src contains all of the js code</li>
+      <li>Run 'npm start' to run the app localy</li>
       </ol>
+      <h2>
+      Rest:
+      </h2>
       </div>
+
     );
   }
 }
