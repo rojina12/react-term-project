@@ -4,7 +4,9 @@ class Conclusion extends Component {
   render() {
     return (
       <div>
+      <h1>
         Conclusion
+      </h1>
       </div>
     );
   }
