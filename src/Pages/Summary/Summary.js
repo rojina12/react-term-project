@@ -28,6 +28,7 @@ class Summary extends Component {
 		<hr/>
 		<h2> Who is it for? </h2>
 		<p> React has become very popular among developers and is because of its large potential to do many things. It is mainly used by developers who want to create larger than normal web applications which use data that can change over time, without reloading the page. React is currently being used by Facebook, Instagram, Netflix, New York Times, Yahoo! Mail, Khan Academy, WhatsApp and DropBox. React helps all these applications with their startup seepd, runtime performance and modularity.</p>
+		</div>
     );
   }
 }
