@@ -1,1 +1,31 @@
 
+
+<html>
+<head>
+
+<h1 style="color:Tomato;">Summary of Rest API Backend</h1>
+</head>
+<body>
+
+<h1 style="font-size:20px;">What is it?</h1>
+<p>A REST is an application program interface (API) which uses HTTP requests to GET, PUT, POST and DELETE data.</p>
+<blockquote cite="https://searchmicroservices.techtarget.com/definition/RESTful-API"></blockquote>
+
+<h2 style="font-size:20px;">Strengths of Rest</h2>
+<blockquote cite="https://www.quora.com/What-are-the-pros-and-cons-of-RESTful-API-first-design-when-programming"></blockquote>
+<p>Strengths include friendliness to existing operating environments (esp. firewalls), multi-language client compatibility, and (re-)use of prosperous ecosystems for things like security (authentication, authorization), and higher level libraries for frameworks and widgets.</p>
+<p>It is useful for building APIs that allow users to connect and interact with cloud services. JSON is the most used standard for REST APIs.</p>
+<blockquote cite="https://bbvaopen4u.com/en/actualidad/rest-api-what-it-and-what-are-its-advantages-project-development"></blockquote>
+<p>Also the strengths includes separation between the client and the serve, visibility, reliability and scalability, and The REST API is always independent of the type of platform or languages.</p>
+
+<h3 style="font-size:20px;">Weakness of Rest</h3>
+<blockquote cite="https://dzone.com/articles/rest-%E2%80%93-good-bad-and-ugly"></blockquote>
+<p>Weakness include complexity if writing a "simple" program in a compiled language, as you have to deal with all of a web server and json encoding, which can be painful if you don't have accessible libraries to do it for you.</p>
+<p>They are not resource oriented so the handling code that maps URIs to tends to get messy.</p>
+
+<h4 style="font-size:20px;">Who and what is it used for?</h3>
+<p>Rest has become very popular among developers. They are used by such sites as Amazon, Google, LinkedIn and Twitter.</p>
+
+</body>
+</html>
+
